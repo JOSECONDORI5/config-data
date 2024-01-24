@@ -8,6 +8,8 @@ server:
 # http://localhost:8093/h2-console
 # Enabling H2 Console
 spring:
+  application:
+    name: shopping-service
   h2:
     console:
       enabled: true
