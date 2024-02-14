@@ -4,6 +4,7 @@ server:
   # To see error message validation
   error:
     include-message: always
+    include-binding-errors: always
 spring:
   application:
     name: customer-service
